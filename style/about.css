@@ -8,29 +8,32 @@ body {
   overflow-x: hidden !important;
 }
 
-
 .card {
   background-color: white !important;
   color: black !important;
   width: 400px !important;
 }
+.card-body {
+  overflow: hidden !important;
+}
 @media screen and (max-width: 420px) {
-    .card {
-        background-color: white !important;
-        color: black !important;
-        width: 300px !important;
-      }
+  .card {
+    background-color: white !important;
+    color: black !important;
+    width: 300px !important;
+  }
 }
 @media screen and (max-width: 310px) {
-    .card {
-        background-color: white !important;
-        color: black !important;
-        width: 290px !important;
-      }
+  .card {
+    background-color: white !important;
+    color: black !important;
+    width: 290px !important;
+  }
 }
 img {
-  width: fit-content !important;
+  width: auto !important;
   height: 300px !important;
+  object-fit: cover;
 }
 
 .navbar.sticky-top.p-2.m-2.navigation.bg-primary {
