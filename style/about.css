@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.employees {
+  /* padding: 5px; */
+  /* box-shadow: 0 4px 10px rgba(130, 127, 127, 0.3); */
+  border-radius: 10px;
+}
+body {
+  overflow-x: hidden !important;
+}
+
+/* Media Query for 700px screen width */
+/* @media (max-width: 700px) {
+
+
+  .employees {
+    width: 100%;
+    max-width: none;
+    min-width: none;
+  }
+} */
+
+
+.card {
+  background-color: white !important;
+  color: black !important;
+  width: 400px !important;
+}
+@media screen and (max-width: 420px) {
+    .card {
+        background-color: white !important;
+        color: black !important;
+        width: 300px !important;
+      }
+}
+@media screen and (max-width: 310px) {
+    .card {
+        background-color: white !important;
+        color: black !important;
+        width: 290px !important;
+      }
+}
+img {
+  width: fit-content !important;
+  height: 300px !important;
+}
+
+.navbar.sticky-top.p-2.m-2.navigation.bg-primary {
+  background-color: rgb(50, 50, 98) !important;
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+}
+.offcanvas-body {
+  background-color: white !important;
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+}
+.nav-item {
+  background-color: white !important;
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+}
+.offcanvas-header {
+  background-color: rgb(50, 50, 98) !important;
+  color: white !important;
+}
