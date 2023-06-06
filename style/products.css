@@ -1,0 +1,55 @@
+.card {
+  width: 400px !important;
+  margin: auto;
+  background-color: cornflowerblue;
+}
+* {
+  overflow-x: hidden;
+}
+.navbar.bg.fixed-top.p-2.m-2.navigation.bg-primary {
+  background-color: rgb(50, 50, 98) !important;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.offcanvas-body {
+  background-color: rgb(50, 50, 98) !important;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.nav-item {
+  background-color: rgb(50, 50, 98) !important;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.offcanvas-header {
+  background-color: rgb(50, 50, 98) !important;
+  color: white;
+}
+body {
+  background-color: cornflowerblue;
+}
+.navbar.sticky-top.p-2.m-2.navigation.bg-primary {
+  background-color: rgb(50, 50, 98) !important;
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+}
+.offcanvas-body {
+  background-color: white !important;
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+}
+.nav-item {
+  background-color: white !important;
+  color: white !important;
+  font-family: "Montserrat", sans-serif;
+}
+.offcanvas-header {
+  background-color: rgb(50, 50, 98) !important;
+  color: white !important;
+}
+@media screen and (max-width: 400px) {
+  .card {
+    width: 290px !important;
+    margin: auto;
+  }
+}
