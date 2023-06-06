@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CartPage</title>
+    <link rel="icon" type="image/svg+xml" href="/images/sbfavicon.ico">
+    <link rel="stylesheet" href="https://nekoui.netlify.app/CSS/components.css">
+    <link rel="stylesheet" href="./style/cart.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+  
+</head>
+<body>
+
+    <section class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <span class='product-card-badge absolute'>
+                    <i class="far fa-heart"></i>
+                </span>
+
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <img src="https://i.postimg.cc/Dzpj2FvN/MSI-Raider-GE67-HX-gaming-laptop-OLED-RTX-3070-deal.jpg" alt="img1" class='img-responsive'>
+                    </div>
+
+                    <div class="col-md-8 col-12">
+                        <h5 class="card-title"><span class='text-reg'>Lazy1</span></h5>
+                        <div class="card-text">
+                            <h5 class="product-card-prod-price">R1000</h5>
+                        </div>
+                        
+                        <div class="item-quantity-container mt-3">
+                            <span class="item-quantity-title">Quantity:</span>
+                            <span class="item-quantity-icon-btn" onclick="decrementQuantity(this)"><i class="fas fa-minus-circle"></i></span>
+                            <span class="item-quantity">2</span>
+                            <span class="item-quantity-icon-btn" onclick="incrementQuantity(this)"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+
+                        <button class="btn btn-secondary mt-3">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-body">
+                <span class='product-card-badge absolute'>
+                    <i class="far fa-heart"></i>
+                </span>
+
+                <div class="row">
+                    <div class="col-md-4 col-12">
+                        <img src="https://i.postimg.cc/CKpP5JkG/ps5.jpg" alt="img2" class='img-responsive'>
+                    </div>
+
+                    <div class="col-md-8 col-12">
+                        <h5 class="card-title"><span class='text-reg'>LazyDuck2</span></h5>
+                        <div class="card-text">
+                            <h5 class="product-card-prod-price">R6000</h5>
+                        </div>
+                        
+                        <div class="item-quantity-container mt-3">
+                            <span class="item-quantity-title">Quantity:</span>
+                            <span class="item-quantity-icon-btn" onclick="decrementQuantity(this)"><i class="fas fa-minus-circle"></i></span>
+                            <span class="item-quantity">2</span>
+                            <span class="item-quantity-icon-btn" onclick="incrementQuantity(this)"><i class="fas fa-plus-circle"></i></span>
+                        </div>
+
+                        <button class="btn btn-secondary mt-3">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+`
+    <script src="./js/cart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
