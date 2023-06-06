@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg {
+    background-color: rgb(65, 65, 112);
+    color: white;
+}
+
+.navbar.bg.fixed-top.p-2.m-2.navigation.bg-primary {
+    background-color: rgb(50,50,98) !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.offcanvas-body {
+    background-color: rgb(50,50,98) !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item {
+    background-color: rgb(50,50,98) !important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.offcanvas-header {
+background-color: rgb(50,50,98) !important;
+color: white;
+}
+
+.wrapper {
+    margin: .5rem;
+}
+
+.h-4 {
+    font-size: 0.9rem;
+}
+
+.img-0 {
+    width: 100%;
+    margin-top: .2rem;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    width: 30%;
+    margin: 0.56rem;
+}
+
+.img-1 {
+    width: 22rem;
+    height: 12.5rem;
+    border-radius: 0.62rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem
+      
+    }
+    .card {
+        width: 27rem
+        
+    }
+
+    .img-1 {
+        width: 27rem
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem
+      
+    }
+    .card {
+        width: 18rem
+        
+    }
+
+    .img-1 {
+        width: 17rem
+    }
+
+    nav {
+        width: 20rem;
+    }
+
+    .wrapper {
+        width: 19rem;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&family=Raleway&display=swap');
