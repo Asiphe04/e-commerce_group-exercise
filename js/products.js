@@ -17,7 +17,7 @@ let products = [
   {
     id: 1,
     image: "https://i.postimg.cc/J0tVbr0j/Acer-Aspire-A5.png",
-    title: "Acer_Aspire",
+    title: "Acer_Aspire-A5",
     desc: "",
     price: 6000,
     instock: 1,
@@ -25,7 +25,7 @@ let products = [
   {
     id: 2,
     image: "https://i.postimg.cc/nrKRjNYq/Lenovo-Idea-Pad-3.png",
-    title: "Lenovo-IdeaPad",
+    title: "Lenovo-Idea-Pad-3",
     desc: "",
     price: 20000,
     instock: 1,
@@ -33,7 +33,7 @@ let products = [
   {
     id: 3,
     image: "https://i.postimg.cc/BQLXxDj7/Logitech-C270-HD-Webcam.png",
-    title: "Webcam",
+    title: "-Webcam",
     desc: "",
     price: 15000,
     instock: 1,
@@ -58,7 +58,7 @@ let products = [
     id: 6,
     image:
       "https://i.postimg.cc/jjQcQ28m/Huawei-Band-7-Wilderness-Green-Silicone-Smartwatch.png",
-    title: "Huawei-Band",
+    title: "Huawei-Band-",
     desc: "",
     price: 4000,
     instock: 6,
@@ -83,7 +83,7 @@ let products = [
   {
     id: 9,
     image: "https://i.postimg.cc/nrKRjNYq/Lenovo-Idea-Pad-3.png",
-    title: "Lenovo-Idea-Pad",
+    title: "Lenovo-Idea-Pad-3",
     desc: "",
     price: 11000,
     instock: 6,
@@ -95,10 +95,9 @@ function renderProducts() {
     const { id, title, image, price } = product;
     const productEl = document.createElement("div");
     productEl.innerHTML = `
-        <div class="product product">
+        <div class="product">
         <div class="product_img">
             <img src="${image}" alt="${title}">
-            </br>
         </div>
         <div class="product_title">
         <h3>${title}</h3>
