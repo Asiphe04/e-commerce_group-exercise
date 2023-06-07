@@ -17,7 +17,7 @@ let products = [
   {
     id: 1,
     image: "https://i.postimg.cc/J0tVbr0j/Acer-Aspire-A5.png",
-    title: "Acer_Aspire-A5",
+    title: "Acer_Aspire",
     desc: "",
     price: 6000,
     instock: 1,
@@ -25,7 +25,7 @@ let products = [
   {
     id: 2,
     image: "https://i.postimg.cc/nrKRjNYq/Lenovo-Idea-Pad-3.png",
-    title: "Lenovo-Idea-Pad-3",
+    title: "Lenovo-IdeaPad",
     desc: "",
     price: 20000,
     instock: 1,
@@ -33,7 +33,7 @@ let products = [
   {
     id: 3,
     image: "https://i.postimg.cc/BQLXxDj7/Logitech-C270-HD-Webcam.png",
-    title: "Logitech-c270-HD-Webcam",
+    title: "Webcam",
     desc: "",
     price: 15000,
     instock: 1,
@@ -41,7 +41,7 @@ let products = [
   {
     id: 4,
     image: "https://i.postimg.cc/GtsdsFXk/Mavic-Drone-Different-Angle.jpg",
-    title: "Mavic-Drone-Different-Angle",
+    title: "Mavic-Drone",
     desc: "",
     price: 20000,
     instock: 1,
@@ -49,7 +49,7 @@ let products = [
   {
     id: 5,
     image: "https://i.postimg.cc/P5qhWnVX/Volkano-Zoom-700-Webcam.jpg",
-    title: "Volkano-Zoom_700_Webcam",
+    title: "Webcam",
     desc: "",
     price: 30000,
     instock: 5,
@@ -58,7 +58,7 @@ let products = [
     id: 6,
     image:
       "https://i.postimg.cc/jjQcQ28m/Huawei-Band-7-Wilderness-Green-Silicone-Smartwatch.png",
-    title: "Huawei-Band-7_Wildarie",
+    title: "Huawei-Band",
     desc: "",
     price: 4000,
     instock: 6,
@@ -67,7 +67,7 @@ let products = [
     id: 7,
     image:
       "https://i.postimg.cc/t47GcQ0B/Daniel-Klein-d-Smart-Blue-Plated-Silicone-Smartwatch.png",
-    title: "Daniel-Klein-d-Smart-Blue",
+    title: "Daniel-Klein",
     desc: "",
     price: 50000,
     instock: 6,
@@ -75,7 +75,7 @@ let products = [
   {
     id: 8,
     image: "https://i.postimg.cc/gjBNX7M0/Hauwei-Watch-Fit-2.png",
-    title: "Huawei-Watch-Fit-2",
+    title: "Huawei-Watch",
     desc: "",
     price: 25000,
     instock: 6,
@@ -83,7 +83,7 @@ let products = [
   {
     id: 9,
     image: "https://i.postimg.cc/nrKRjNYq/Lenovo-Idea-Pad-3.png",
-    title: "Lenovo-Idea-Pad-3",
+    title: "Lenovo-Idea-Pad",
     desc: "",
     price: 11000,
     instock: 6,
@@ -95,9 +95,10 @@ function renderProducts() {
     const { id, title, image, price } = product;
     const productEl = document.createElement("div");
     productEl.innerHTML = `
-        <div class="product">
+        <div class="product product">
         <div class="product_img">
             <img src="${image}" alt="${title}">
+            </br>
         </div>
         <div class="product_title">
         <h3>${title}</h3>
