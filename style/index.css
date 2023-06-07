@@ -10,12 +10,12 @@ body {
 }
 
 .navbar.bg.fixed-top.p-2.m-2.navigation.bg-primary {
-    background-color: rgb(50,50,98) !important;
+    background-color: white !important;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 .offcanvas-body {
-    background-color: rgb(50,50,98) !important;
+    background-color: white !important;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
