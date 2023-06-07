@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .employees {
-<<<<<<< HEAD
  
-=======
-  /* padding: 5px; */
-  box-shadow: 0 4px 10px rgba(130, 127, 127, 0.3);
->>>>>>> 2223be649a33c70bdbcd8d4cc94a072f693fc2ff
   border-radius: 10px;
 }
 body {
@@ -22,7 +17,6 @@ nav{
   padding: 5px !important;
   gap: 10px !important;
 
-<<<<<<< HEAD
   list-style: none !important;
 }
 .nav-link {
@@ -32,8 +26,6 @@ nav{
 .nav-link:hover {
   color: blue !important;
 }
-=======
->>>>>>> 2223be649a33c70bdbcd8d4cc94a072f693fc2ff
 .card {
   background-color: white !important;
   color: black !important;
