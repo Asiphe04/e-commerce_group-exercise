@@ -3,44 +3,47 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+nav{
+    background-color: black !important;
+    color: white !important;
+}
+.navbar-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    margin: 5px !important;
+    padding: 5px !important;
+    gap: 10px !important;
+  
+    list-style: none !important;
+  }
+  .nav-link {
+    text-decoration: none !important;
+    color: white !important;
+  }
+  .nav-link:hover {
+    color: blue !important;
+  }
 
-.bg {
-    background-color: rgb(65, 65, 112);
-    color: white;
-}
-
-.navbar.bg.fixed-top.p-2.m-2.navigation.bg-primary {
-    background-color: rgb(50,50,98) !important;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-.offcanvas-body {
-    background-color: rgb(50,50,98) !important;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-.nav-item {
-    background-color: rgb(50,50,98) !important;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-.offcanvas-header {
-background-color: rgb(50,50,98) !important;
-color: white;
-}
-
-.wrapper {
-    margin: .5rem;
-}
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 .h-4 {
     font-size: 0.9rem;
 }
 
 .img-0 {
     width: 100%;
-    margin-top: .2rem;
-    height: 25rem;
+    height: 42rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,6 +52,7 @@ color: white;
 .card {
     width: 30%;
     margin: 0.56rem;
+    border: transparent;
 }
 
 .img-1 {
@@ -57,13 +61,13 @@ color: white;
     border-radius: 0.62rem;
 }
 
-.cards {
+/* .cards {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background: transparent;
-}
+    justify-content: center;
+} */
+
 
 
 @media only screen and (max-width: 600px) {
@@ -83,6 +87,44 @@ color: white;
     }
 }
 
+.home-banner {
+    background-image: url(https://i.postimg.cc/nL5SmF48/onur-binay-9j-LI9-Ux6-IFo-unsplash.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    min-width: 100%;
+}
+
+.h-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: black 4px 5px 2px;
+    font-size: 3.2rem;
+}
+
+.h-01 {
+    font-weight: 800;
+}
+
+.shad {
+    text-shadow: black 4px 5px 2px;
+}
+
+.header-text {
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.drop{
+    position: absolute;
+    top:90%;
+    left:35%
+}
+
 @media only screen and (max-width: 300px) {
     .cards {
         display: flex;
@@ -100,12 +142,16 @@ color: white;
     }
 
     nav {
-        width: 20rem;
+        width: 21rem;
     }
 
     .wrapper {
-        width: 19rem;
+        width: 21rem;
     }
+    footer{
+        width: 21rem;
+    }
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&family=Raleway&display=swap');
