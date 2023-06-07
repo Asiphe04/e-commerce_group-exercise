@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .employees {
+<<<<<<< HEAD
  
+=======
+  /* padding: 5px; */
+  box-shadow: 0 4px 10px rgba(130, 127, 127, 0.3);
+>>>>>>> 2223be649a33c70bdbcd8d4cc94a072f693fc2ff
   border-radius: 10px;
 }
 body {
@@ -17,6 +22,7 @@ nav{
   padding: 5px !important;
   gap: 10px !important;
 
+<<<<<<< HEAD
   list-style: none !important;
 }
 .nav-link {
@@ -26,28 +32,34 @@ nav{
 .nav-link:hover {
   color: blue !important;
 }
+=======
+>>>>>>> 2223be649a33c70bdbcd8d4cc94a072f693fc2ff
 .card {
   background-color: white !important;
   color: black !important;
   width: 400px !important;
 }
+.card-body {
+  overflow: hidden !important;
+}
 @media screen and (max-width: 420px) {
-    .card {
-        background-color: white !important;
-        color: black !important;
-        width: 300px !important;
-      }
+  .card {
+    background-color: white !important;
+    color: black !important;
+    width: 300px !important;
+  }
 }
 @media screen and (max-width: 310px) {
-    .card {
-        background-color: white !important;
-        color: black !important;
-        width: 290px !important;
-      }
+  .card {
+    background-color: white !important;
+    color: black !important;
+    width: 290px !important;
+  }
 }
 img {
-  width: fit-content !important;
+  width: auto !important;
   height: 300px !important;
+  object-fit: cover;
 }
 
 .navbar.sticky-top.p-2.m-2.navigation.bg-primary {

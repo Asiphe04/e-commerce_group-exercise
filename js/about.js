@@ -62,11 +62,11 @@ let dispEmployees = document.querySelector(".us");
 // Go through each item in the employees array one by one
 employees.forEach((data) => {
   dispEmployees.innerHTML += `
-          <div class= "card col-lg-4 col-md-4 col-12 my-2">
+          <div class= "card col-4">
           <h3>${data.name}</h3>
           <p>${data.job}</p>
           <div class= "card-body ">
-          <img src="${data.img}" class="img-fluid ">
+          <img src="${data.img}" class="img-fluid mx-5">
           </div>
           </div>
           </div>`;
